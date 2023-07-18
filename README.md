@@ -14,3 +14,12 @@ base - название базы
 
 ### выпустить сертификат
 `sudo certbot certonly --webroot -w /var/docker/okocrm-test/app/okocrm/web -d test.arkadiikur.ru`
+
+## Docker
+
+### список контейнеров
+`docker container ls`
+
+### выполнить команду в контейнере
+
+`docker exec -it <container-name> bash`

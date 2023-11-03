@@ -13,7 +13,7 @@ base - название базы
 ## Certbot
 
 ### выпустить сертификат
-`sudo apt install letsencrypt`
+`sudo apt install letsencrypt`  
 `sudo certbot certonly --standalone --agree-tos --preferred-challenges http -d domain-name.com`
 
 ## Docker

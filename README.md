@@ -13,7 +13,8 @@ base - название базы
 ## Certbot
 
 ### выпустить сертификат
-`sudo certbot certonly --webroot -w /var/docker/okocrm-test/app/okocrm/web -d test.arkadiikur.ru`
+`sudo apt install letsencrypt`
+`sudo certbot certonly --standalone --agree-tos --preferred-challenges http -d domain-name.com`
 
 ## Docker
 
